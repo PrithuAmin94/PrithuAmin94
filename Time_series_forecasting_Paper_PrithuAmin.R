@@ -1,4 +1,11 @@
 ################################################################
+### Time Series Forecasting of Swedish Housing Market prices ###
+################################################################
+
+#I used the historical monthly price index of the Swedish Housing market to forecast both rolling 
+#and recursive pseudo out of sample forecasts of 2018 and 2019. Then I compare these forecasts with 
+#real data to evaluate my forecast errors and precision.
+################################################################
 library(pxweb)
 #the price index of the swedish housing price.
 monthly_prices <- 
